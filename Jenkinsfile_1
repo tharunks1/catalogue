@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        node {
-            label 'AGENT-1'
-        }
-    }
+   
     environment { 
         packageVersion = ''
         nexusURL = '34.228.198.221:8081'
