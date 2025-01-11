@@ -13,6 +13,12 @@ pipeline {
     }
     // build
     stages {
+
+ stage('echo ') {
+            steps {
+                sh "echo hello"
+            }
+        } 
         stage('Get the version') {
             steps {
                 script {
